@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Hotel Booking</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="home.css">
+    <script src="home.js" defer></script>
+</head>
+<body>
+    <div class="start">
+        <nav class="navbar">
+            <div id="name">HOTEL BOOKING</div>
+            <div class="hamburger" onclick="toggleMenu()">
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+            <ul id="nav-links">
+                <li><a class="active" id="home-link">Home</a></li>
+                <li><a href="#" id="rooms-link">Rooms</a></li>
+                <li><a href="#" id="about-link">About us</a></li>
+                <li><a href="#" id="contact-link">Contact</a></li>
+                <li><a href="login.html">Login</a></li>
+            </ul>
+        </nav>
+        <div class="A" id="home">
+            <h1>Welcome To our Hotel</h1>
+            <p> We are delighted to have you with us. Whether you’re here for a relaxing getaway, a business trip, or a special occasion, we strive to make your stay comfortable and memorable!</p>
+            <div class="B">
+                <button onclick="alert('login first')">Book now</button>
+            </div>
+        </div>
+    </div>
+    <div class="rooms" id="rooms">
+        <h2>Our Rooms</h2>
+        <div class="room-container">
+            <div class="room">
+                <img src="images/room1.jpg" alt="Room 1">
+                <p>Luxury Suite - $200/night</p>
+                <button>Book Now</button>
+            </div>
+            <div class="room">
+                <img src="images/room2.jpg" alt="Room 2">
+                <p>Deluxe Room - $150/night</p>
+                <button>Book Now</button>
+            </div>
+            <div class="room">
+                <img src="images/room3.jpg" alt="Room 3">
+                <p>Standard Room - $100/night</p>
+                <button>Book Now</button>
+            </div>
+        </div>
+    </div>
+    <div class="about-us" id="about-us">
+        <div class="about-overlay">
+            <h2>About Us</h2>
+            <div class="about-container">
+                <img src="images/aboutus.jpg" alt="Hotel Image">
+                <p>
+                    Welcome to our hotel, where luxury meets comfort. Our world-class hospitality ensures your stay is unforgettable.
+                    Whether for business or leisure, we provide top-tier services tailored to your needs.
+                </p>
+                <p>
+                    Indulge in our exquisite rooms, fine dining, and serene ambiance designed for your relaxation and pleasure.
+                </p>
+                <button onclick="alert('More Details Coming Soon!')">Learn More</button>
+            </div>
+        </div>
+    </div>
+    <div class="contact" id="contact">
+        <h2>Contact Us</h2>
+        <p>Stay connected with us through our social media platforms.</p>
+        <div class="social-icons">
+            <a href="https://instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+            <a href="https://t.me" target="_blank"><i class="fab fa-telegram"></i></a>
+            <a href="https://wa.me" target="_blank"><i class="fab fa-whatsapp"></i></a>
+            <a href="https://linkedin.com" target="_blank"><i class="fab fa-linkedin"></i></a>
+        </div>
+    </div>
+
+</body>
+</html>
