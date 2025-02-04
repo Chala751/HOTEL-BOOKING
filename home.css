@@ -402,7 +402,7 @@ animation: fadeIn 1.5s ease-in-out forwards;
     .navbar ul {
         flex-direction: column;
         display: none;
-        width: 70%; /* Reduces width to 70% of the screen */
+        width: 50%; /* Reduces width to 70% of the screen */
         position: absolute;
         top: 70px;
         right: 0; 
@@ -432,5 +432,46 @@ animation: fadeIn 1.5s ease-in-out forwards;
     .B button {
         width: 120px;
         font-size: 14px;
+    }
+     .about-us {
+    height: auto;
+    padding: 50px 20px;
+   }
+ .rooms {
+    margin-top: 10px;
+    background:url(images/hotel2.jpg);
+    
+    padding: 50px 20px;
+    text-align: center;
+    transition: transform 1s ease-in-out;
+    margin-bottom: 0px;
+}
+.about-us {
+margin-top: 200px;
+height: 95vh;
+display: flex;
+align-items: center;
+justify-content: center;
+text-align: center;
+opacity: 0;
+animation: fadeIn 1.5s ease-in-out forwards;
+}
+.about-container {
+    font-size: 16px;
+}
+.about-container img {
+    width: 90%;
+}
+.about-container button {
+    font-size: 16px;
+    padding: 10px 20px;
+}
+.social-icons {
+        gap: 10px;
+    }
+    .social-icons a {
+        width: 40px;
+        height: 40px;
+        font-size: 20px;
     }
 }
